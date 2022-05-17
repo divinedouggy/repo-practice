@@ -1,0 +1,150 @@
+h2{color: rgb(199, 35, 125);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2em;
+    text-decoration: overline silver;
+    margin-left: .8em}
+
+h3:not(#interesting){ color : navy;
+    margin-left: 1em;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: outset;
+    border-width:15px;
+    border-color:rgba(199, 35, 125, 0.427);
+    border-radius: 55px;
+    text-align: center;
+    font-size:xx-large;
+    background-color:rgba(255, 0, 255, 0.356);
+    line-height: 88px;}
+
+h3:not(#interesting):hover{background-color: lavender;
+    color:rgba(72, 0, 255, 0.673);
+    border-color:rgb(199, 35, 125);
+    outline-style:dashed;
+    outline-color: rgba(255, 244, 30, 0.251);
+    outline-width: 55px;}
+
+body{background-color: aquamarine;
+    margin-bottom: 4em}
+
+p{font-size: 1.3em;
+    color: rgb(33, 100, 33) ;}
+
+ol{letter-spacing: .03em;
+        font-size: 125%}
+
+a{color: purple}
+
+nav{font-size: 1.5em;
+    font-family: cursive;
+    margin-left: .5em;}
+
+.image{color: brown;
+font-family: OCR A Std, monospace;
+font-size: .9em;
+font-weight: bold;}
+
+#interesting{color: blueviolet}
+
+span{font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 137%}
+
+#div1{background-color: lavender;
+    position: relative;
+    top:15px;
+    width: 900px;
+    margin-left: 5em;
+    margin-right: 30em;
+    padding-left: 4%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    z-index:3}
+
+#divimg{background-color: blanchedalmond;
+    position:relative;
+    top:-33px;
+    left:475px;
+    width: 800px;
+    height: 200px;
+   
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    z-index:2}
+
+#divimg2{background-color: blanchedalmond;
+        position:relative;
+        top:25px;
+        width:513px;
+        margin-left: 27em;
+        margin-right: 34.9em;
+        padding-left: .7%;
+        padding-top: .7%;
+        padding-bottom: .7%}
+
+#divlist{background-color: lightgreen;
+    width:500px;
+    position: relative;
+    top:-88px;
+    left:300px;
+    bottom:35px;
+    padding-left: 3em;
+    z-index:3}
+
+#fixed{position:fixed;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+    color: rgba(115, 0, 255, 0.289);
+    text-align:center;
+    line-height:50px;
+    padding:11px;
+    bottom:25px;
+    left:25px;
+    width: 300px;
+    height: 60px;
+    background-color: rgba(230, 230, 250, 0.363);
+    background-image: linear-gradient(to right, rgba(0, 217, 255, 0.175),rgba(137, 43, 226, 0.099));
+    border:none;
+    border-radius: 111px;
+    border-color:rgb(117, 46, 139)}
+#fixed:hover{background-color: lavender;
+    background-image: linear-gradient(to right, rgba(0, 217, 255, 0.392),rgba(137, 43, 226, 0.266));
+    color: rgb(115, 0, 255);
+    border-style: dotted;
+    border-width: 3px;
+    border-color:blue;
+    z-index:5}
+    
+#div1, #divimg, #divimg2, #divlist
+    {border: dashed;}
+
+form{padding: 15px;
+        position:relative;
+        top: -175px;
+        left: -145px;
+        color: rgb(253, 172, 240);
+        font-size:103%;
+        background-color: darkgreen;
+        border-style: dashed;
+        border-color: black;
+        height: 362px; width:333px;
+        margin-left: 59em;
+        margin-top: 3em;
+        padding-bottom: 2em;
+        padding-right: 3em;
+        z-index:3}
+
+input[type=button]{background-color: magenta;
+        margin-left: 10em;
+        padding: 4%}
+
+input[type=button]:hover {background-color:orange} 
+
+input[type=text]:focus {background-color: lightblue}
+    
+img{float: right;}
+
+*{border-radius: 9px;}
